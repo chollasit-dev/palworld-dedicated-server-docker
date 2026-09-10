@@ -1,0 +1,15 @@
+# Taplo LSP schema specification
+#:schema https://mise.en.dev/schema/mise.json
+
+[tools]
+go = "1.27.0"
+
+[tasks.palhook-run]
+run = "go run ./cmd/palhook/"
+[tasks.palhook-build]
+run = "go build -o ./bin/palhook ./cmd/palhook/"
+
+[tasks.backup-run]
+run = "go run ./cmd/backup/"
+[tasks.backup-build]
+run = "go build -o ./bin/backup ./cmd/backup/"
