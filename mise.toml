@@ -13,3 +13,6 @@ run = "go build -o ./bin/palhook ./cmd/palhook/"
 run = "go run ./cmd/backup/"
 [tasks.backup-build]
 run = "go build -o ./bin/backup ./cmd/backup/"
+
+[tasks.webhook-run]
+run = "go run ./cmd/webhook/"

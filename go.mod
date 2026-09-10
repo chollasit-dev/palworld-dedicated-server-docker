@@ -1,4 +1,4 @@
-module palhook-at-home
+module palhook
 
 go 1.27.0
 

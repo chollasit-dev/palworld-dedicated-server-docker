@@ -1,0 +1,5 @@
+# Taplo LSP schema specification
+#:schema https://mise.en.dev/schema/mise.json
+
+[env]
+'_'.file = "./.env.development"
